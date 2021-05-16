@@ -43,3 +43,34 @@ border-radius: 2px;
 .header__basket {
   margin-top: -16px;
 }
+
+.header__sidebar {
+  background: url(../img/header_nav.png) no-repeat;
+  height: 365px;
+  margin-top: -44px;
+}
+
+.header__aside {
+  left: 80px;
+  width: 389px;
+  height: 204px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 16px rgb(117 117 117 / 20%);
+  border-radius: 2px;
+  position: relative;
+  top: 80px;
+}
+
+.header__aside_form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 55px 33px 0 38px;
+}
+.header__aside_form input {
+  width: 97px;
+  height: 32px;
+  background: #262626;
+  border-radius: 16px;
+  box-sizing: border-box;
+}

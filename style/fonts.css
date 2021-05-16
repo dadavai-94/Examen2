@@ -1,3 +1,7 @@
+ body {
+   font-family: 'Roboto', sans-serif; ;
+ }
+
 button {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -9,4 +13,31 @@ button {
 
 .header__button_black {
   color: #FFFFFF;
+}
+
+.header__aside h1 {
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+color: #1D1D1D;
+text-align: center;
+position: relative;
+top: 38px;
+}
+
+.header__aside_form {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 13px;
+  color: #626262;
+}
+.header__aside_form input {
+  font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 15px;
+color: #FFFFFF;
 }

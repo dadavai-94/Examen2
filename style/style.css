@@ -26,12 +26,21 @@
 .header__button {
   width: 80px;
   height: 40px;
+
+}
+
+.header__button:hover {
+  background: #57AD56;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: .5s ease-in-out; 
 }
 
 .header__button_white {
   border: 1px solid #E0E0E0;
 box-sizing: border-box;
 border-radius: 2px;
+
 }
 
 .header__button_black {
@@ -41,7 +50,17 @@ border-radius: 2px;
   background: #262626;
 }
 .header__basket {
+  width: 40px;
+  background: url(../img/basket.png);
   margin-top: -16px;
+}
+
+.header__basket:hover {
+  background: url(../img/basket.svg)no-repeat;
+    position: relative;
+    top: 24px;
+    left: 11px;
+  
 }
 
 .header__sidebar {
@@ -70,7 +89,14 @@ border-radius: 2px;
 .header__aside_form input {
   width: 97px;
   height: 32px;
-  background: #262626;
-  border-radius: 16px;
+  border: 1px solid #262626;
   box-sizing: border-box;
+  border-radius: 16px;
+  background: #262626;
+}
+.header__aside_form input:hover {
+  background: #57AD56;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: .5s ease-in-out; 
 }

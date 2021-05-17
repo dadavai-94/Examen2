@@ -67,3 +67,11 @@ font-size: 15px;
 line-height: 21px;
 color: #1D1D1D;
 }
+
+.footer__conteiner_info {
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 15px;
+color: #FFFFFF;
+}

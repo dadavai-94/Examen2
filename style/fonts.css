@@ -51,3 +51,19 @@ line-height: 19px;
 list-style-type: none;
 color: #626262;
 }
+
+.main__title {
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 34px;
+color: #1D1D1D;
+}
+
+.main__article_section_text_cash {
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 21px;
+color: #1D1D1D;
+}

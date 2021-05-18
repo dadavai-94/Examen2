@@ -67,3 +67,88 @@ font-size: 15px;
 line-height: 21px;
 color: #1D1D1D;
 }
+
+.footer__conteiner_text {
+  color: #FFFFFF;
+}
+.footer__conteiner_text span {
+  color: #57AD56; ;
+}
+
+.footer__conteiner_info {
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 15px;
+color: #FFFFFF;
+}
+
+.footer__conteiner_nav_tab {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+
+  margin: -14px 0px 0 -18px;
+}
+
+.footer__conteiner_nav_tab li a{
+  text-decoration: none;
+  margin: 15px 10px 0 0 ;
+  color: #FFFFFF;
+}
+
+.footer__conteiner_nav_tab li {
+  list-style-type: none;
+  margin: 23px 0px 0px 0;
+}
+
+.address {
+  font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 13px;
+color: #FFFFFF;
+}
+
+.footer__podval {
+  font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 13px;
+}
+
+.footer__podval li {
+  list-style-type: none;
+  
+}
+
+.footer__podval li a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+@media only screen and (max-width:320px) {
+  button {
+    font-size: 11px;
+  }
+
+  .header__aside h1  {
+    font-size: 24px;
+  }
+
+  .main__article_section h4 {
+    font-size: 14px;
+  }
+  .main__article_section_text {
+    font-size: 13px;
+  }
+
+  .main__article_section_text_cash1 {
+    font-size: 15;
+  } 
+
+  .main__article_section_text_cash {
+    font-size: 15;
+  } 
+}

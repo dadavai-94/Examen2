@@ -10,10 +10,16 @@
   <title>Document</title>
 </head>
 <body>
+  <!--Шабка сайта логотип и кнопки для покупки-->
 <header class="header">
     <nav class="header__navigator">
-      <img src="img/logo.png" class="header__logo" alt="logo">
-        <form action="" class="header__form">
+      <picture class="header__logo">
+        <source media="(max-width:768px)" srcset="img/tablet/logo.svg">
+        <source media="(max-width:1224px)" srcset="img/logo.png">
+        <img src="img/logo.png" alt="logo" style="width:auto;">
+      </picture>
+      
+        <form action="button" class="header__form">
             <button class="header__button header__button_white">Sign In</button>
             <button class="header__button header__button_black">Register</button>
             <a href="#" class="header__basket header__basket_svg"></a>
@@ -22,13 +28,17 @@
     <nav class="header__sidebar">
       <aside class="header__aside">
           <h1>Трактир «Пушкин»</h1>
-          <form action="#" class="header__aside_form">
+          <form action="button" class="header__aside_form">
             <label for="text">₽₽₽ • Европейская</label>
             <input type="button" value="40 - 50 Min">
           </form>
       </aside>
     </nav>
 </header>
+
+
+<!--Тело сайта меню и пробукты услуг-->
+
   <main class="main">
     <menu class="main__menu">
         <li>Закуски</li>
@@ -40,70 +50,123 @@
     </menu>
    
        <h3 class="main__title">Закуски</h3>
+       <!-- 6 карточек меню сделан через флекс-бокс-->
     <article class="main__article">
        <section class="main__article_section">
-         <img src="./img/content/Capture (3).png" class="main__article_section_img" alt="foto-sel'd">
+        <picture class="main__article_section_img">
+          <source media="(max-width:320px)" srcset="img/mobile/content/Capture(3).png">
+          <source media="(max-width:768px)" srcset="img/tablet/content/Capture(3).png">
+          <source media="(max-width:1224px)" srcset="img/content/Capture(3).png">
+          <img src="img/content/Capture(3).png" alt="foot" style="width:auto;">
+        </picture>
           <h4>Сельдь на бородинском хлебе</h4>
           <p class="main__article_section_text">С яйцом и огурцом</p>
           <p class="main__article_section_text_cash1">240 ₽</p>
         </section>
 
         <section class="main__article_section">
-          <img src="./img/content/Capture (3)-1.png" class="main__article_section_img" alt="foto-sel'd">
+          <picture class="main__article_section_img">
+            <source media="(max-width:320px)" srcset="img/mobile/content/Capture(3)-1.png">
+            <source media="(max-width:768px)" srcset="img/tablet/content/Capture(3)-1.png">
+            <source media="(max-width:1224px)" srcset="img/content/Capture(3)-1.png">
+            <img src="img/content/Capture(3)-1.png" alt="foot" style="width:auto;">
+          </picture>
            <h4>Соленья ассорти</h4>
-       
            <p class="main__article_section_text_cash">320 ₽</p>
          </section>
 
          <section class="main__article_section">
-          <img src="./img/content/Capture (3)-2.png" class="main__article_section_img" alt="foto-sel'd">
+          <picture class="main__article_section_img">
+            <source media="(max-width:320px)" srcset="img/mobile/content/Capture(3)-2.png">
+            <source media="(max-width:768px)" srcset="img/tablet/content/Capture(3)-2.png">
+            <source media="(max-width:1224px)" srcset="img/content/Capture(3)-2.png">
+            <img src="img/content/Capture(3)-2.png" alt="foot" style="width:auto;">
+          </picture>
            <h4>Грибы маринованные</h4>
-
            <p class="main__article_section_text_cash">300 ₽</p>
          </section>
 
          <section class="main__article_section">
-          <img src="./img/content/Capture (3)-3.png" class="main__article_section_img" alt="foto-sel'd">
+          <picture class="main__article_section_img">
+            <source media="(max-width:320px)" srcset="img/mobile/content/Capture(3)-3.png">
+            <source media="(max-width:768px)" srcset="img/tablet/content/Capture(3)-3.png">
+            <source media="(max-width:1224px)" srcset="img/content/Capture(3)-3.png">
+            <img src="img/content/Capture(3)-3.png" alt="foot" style="width:auto;">
+          </picture>
            <h4>Сало домашнее с горчицей</h4>
-       
            <p class="main__article_section_text_cash">320 ₽</p>
          </section>
 
          <section class="main__article_section">
-          <img src="./img/content/Capture (3)-4.png" class="main__article_section_img" alt="foto-sel'd">
+          <picture class="main__article_section_img">
+            <source media="(max-width:320px)" srcset="img/mobile/content/Capture(3)-4.png">
+            <source media="(max-width:768px)" srcset="img/tablet/content/Capture(3)-4.png">
+            <source media="(max-width:1224px)" srcset="img/content/Capture(3)-4.png">
+            <img src="img/content/Capture(3)-4.png" alt="foot" style="width:auto;">
+          </picture>
            <h4>Малосольная семга</h4>
-       
            <p class="main__article_section_text_cash">390 ₽</p>
          </section>
 
          <section class="main__article_section">
-          <img src="./img/content/Capture (3)-5.png" class="main__article_section_img" alt="foto-sel'd">
+          <picture class="main__article_section_img">
+            <source media="(max-width:320px)" srcset="img/mobile/content/Capture(3)-5.png">
+            <source media="(max-width:768px)" srcset="img/tablet/content/Capture(3)-5.png">
+            <source media="(max-width:1224px)" srcset="img/content/Capture(3)-5.png">
+            <img src="img/content/Capture(3)-5.png" alt="foot" style="width:auto;">
+          </picture>
            <h4>Язык говяжий с хреном</h4>
-       
            <p class="main__article_section_text_cash">350 ₽</p>
          </section>
-
     </article>
   </main>
 
-  <footer>
-    <img src="" alt="icon">
-    <nav>
+<!--Подвал сайта в котором три блока через флекс -->
 
-    </nav>
-    <nav>
+  <footer class="footer">
+                <div class="footer__logo">
+                        <img src="img/footer/white-logo.svg" alt="icon">
+                </div>
+      <div class="footer__conteiner">
+          <nav class="footer__conteiner_nav">
+                       <div class="footer__conteiner_info">
+                              <img src="img/footer/Shape.png" alt="shape">
+                                     <p>ENGLISH</p>
+                                <img src="img/footer/if_icon-ios7-arrow-back_211686.svg" alt="shape">
+                      </div>
+                      <div class="footer__conteiner_text">
+                           <p><span>#</span>UberEats</p>
+                      </div>
+                <div class="footer__conteiner_icon">
+                     <img src="img/footer/facebook.svg" alt="facebook">
+                     <img src="img/footer/twitter.svg" alt="twitter">
+                     <img src="img/footer/instagram.svg" alt="instagram">
+                </div>
+          </nav>
+
+           <nav class="footer__conteiner_nav">
+                <ul class="footer__conteiner_nav_tab">
+                     <li><a href="#"> About UberEats</a></li>
+                     <li><a href="#">Become a Delivery Partner</a> </li>
+                      <li><a href="#">Become a Restaurant Partner</a> </li>
+                </ul>
+           </nav>
+           <nav class="footer__conteiner_nav">
+              <ul class="footer__conteiner_nav_tab footer__conteiner_nav_tab1">
+                      <li><a href="#">See all cities</a> </li>
+                      <li><a href="#">Pricing</a> </li>
+                      <li><a href="#"> Help</a></li>
+                       <li><a href="#">FAQs</a> </li>
+              </ul>
+           </nav>
+      </div>
+           <address class="address">© 2017 Uber Technologies Inc.</address>
+
+           <ul class="footer__podval">
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+           </ul>
       
-    </nav>
-    <nav>
-
-    </nav>
-
-    <address></address>
-
-    <ul>
-      <li></li>
-      <li></li>
-    </ul>
   </footer>
 </body>
 </html>

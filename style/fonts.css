@@ -133,5 +133,22 @@ line-height: 13px;
     font-size: 11px;
   }
 
+  .header__aside h1  {
+    font-size: 24px;
+  }
 
+  .main__article_section h4 {
+    font-size: 14px;
+  }
+  .main__article_section_text {
+    font-size: 13px;
+  }
+
+  .main__article_section_text_cash1 {
+    font-size: 15;
+  } 
+
+  .main__article_section_text_cash {
+    font-size: 15;
+  } 
 }

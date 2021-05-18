@@ -387,21 +387,29 @@ border-radius: 2px;
   }
 
   .header__sidebar{
-    margin: -44px 0px 0px 2px;
-    background: url(../img/tablet/d42ea9bbf7aff297c2e1eb5e5f3b7fa6-w1080-87.png) no-repeat;
+    margin: -44px 0px 0px -9px;
+    background: url(../img/mobile/d42ea9bbf7aff297c2e1eb5e5f3b7fa6-w1080-87.png) no-repeat;
   }
 
   .header__aside {
+    top: 143px;
     left: 8px;
-    width: 432px;
+    width: 308px;
+    height: 180px;
   }
 
   .header__aside h1 {
-    left: -12px;
+    left: 0px;
+    top: 17px;
   }
 
   .header__aside_form{
-    padding: 55px 49px 0 38px;
+    flex-direction: column;
+    padding: 27px 54px 0 38px;
+  }
+  
+  .header__aside_form input {
+    margin: 18px 0px 0 18px;
   }
 
   .header__aside_form label {
@@ -411,67 +419,85 @@ border-radius: 2px;
   }
 
   .main {
-    width: 768px;
+    width: 320px;
   }
   .main__menu {
-    margin: 31px 0px 0 -30px;
+   display: none;
   }
 
   .main__title {
-    left: 10px;
+    left: 110px;
+    top: -7px;
   }
 
   .main__article {
-    width: 768px;
+    width: 320px;
     flex-direction: column;
-    margin: -11px 0px 0 3px;
+    margin: 32px 0px 0 -6px;
   }
 
   .main__article_section {
-    width: 752px;
-    margin-top: 30px;
+    width: 308px;
+    height: 102px;
+    margin-top: 14px;
   }
 
   .main__article_section h4 {
-    left: 23px;
-  }
+    left: 0px;
+    top: -14px;
+    }
+  
 
   .main__article_section_text {
-    left: 23px;
-    top: -15px;
+    left: 0px;
+    top: -22px;
   }
 
   .main__article_section_text_cash1 {
-    top: 32px;
-    left: 22px;
+    top: -17px;
+    left: 0px;
   }
 
   .main__article_section_text_cash {
-    left: 23px;
+    left: 0px;
+    top: 13px;
   }
 
   .footer {
-    width: 768px;
-    margin-top: 48px;
+    width: 320px;
+    height: 769px;
+    margin-top: 40px;
+    margin-left: -10px;
   }
 
   .footer__logo {
-    width: 768px;
+    width: 320px;
     top: 54px;
     left: 10px;
   }
 
   .footer__conteiner {
-    width: 700px;
-    margin: 0 0px 0 10px;
+    flex-direction: column;
+    width: 320px;
+    margin: 0 0px 0 10px
+  }
+  .footer__conteiner_nav:nth-child(2) {
+    margin: -16px 0px 0 -22px;
   }
 
+  .footer__conteiner_nav:nth-child(3) {
+    margin: -63px 0px 0 -48px;
+  }
   .address {
-    top: 51px;
+    top: 34px;
     left: 10px;
   }
   .footer__podval {
-    margin: 38px 216px 0px 0px;
-    width: 286px;
+    align-items: flex-start;
+    float: left;
+    flex-direction: column;
+    margin: 57px 0px 0px -30px;
+    width: 100px;
+    height: 52px;
   }
 }
